@@ -7,7 +7,7 @@ void cal_area(float a, float b, float c){
 	float area;
 
 	s= (a+b+c)/2;
-	area = sqrt(s*(s-a)*s*(s-b)*s*(s-c));
+	area = sqrt(s*(s-a)*(s-b)*(s-c));
 
 	printf("Area of triangle is = %f\n", area);
 }

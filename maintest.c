@@ -6,9 +6,14 @@ void cal_area(float x, float y, float z){
 	float area;
 
 	s= (x+y+z)/2;
-	area = pow((s*(s-x)*s*(s-y)*s*(s-z)), 0.5);
+	area = sqrt((s*(s-x)*(s-y)*(s-z)));
 
+	printf("s = %f\n", s);
 	printf("Area of triangle is = %f\n", area);
+
+	float t;
+	t= sqrt(4.02);
+	printf("Test is = %f\n", t);
 }
 
 int main(int argc, char const *argv[]) {
