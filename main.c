@@ -3,9 +3,9 @@
 
 int main(int argc, char const *argv[]) {
 	float a,b,c;
-	a= atoi(argv[2]);
-	b= atoi(argv[3]);
-	c= atoi(argv[4]);
+	a= atof(argv[1]);
+	b= atof(argv[2]);
+	c= atof(argv[3]);
 	cal_area(a,b,c);
 	return 0;
 }
