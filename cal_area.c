@@ -1,5 +1,6 @@
 #include "cal_area.h"
 #include <stdio.h>
+#include <math.h>
 
 void cal_area(float a, float b, float c){
 	float s;
