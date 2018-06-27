@@ -9,4 +9,3 @@ int main(int argc, char const *argv[]) {
 	cal_area(a,b,c);
 	return 0;
 }
-#
