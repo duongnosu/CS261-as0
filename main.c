@@ -1,6 +1,7 @@
 #include "cal_area.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 int main(int argc, char const *argv[]) {
 	float a,b,c;
 	a= atof(argv[1]);
