@@ -1,3 +1,11 @@
+/*********************************************************************
+** Program Filename: main.c
+** Author: Nhu Duong
+** Date: June 29, 2018
+** Description: main function
+** Input: None
+** Output: None
+*********************************************************************/
 #include "cal_area.h"
 #include <stdio.h>
 #include <stdlib.h>
